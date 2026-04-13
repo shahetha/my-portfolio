@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+/* black canvas with subtle neon haze */
+:root { color-scheme: dark; }
+html, body, #root { height: 100%; }
+body {
+  background:
+    radial-gradient(1000px 600px at 50% -20%, rgba(124,58,237,.18), transparent 60%),
+    #0b0c10;
+  color: #e5e7eb;
+}
+
+/* serif headline pairing */
+.h-heading { font-family: "Times New Roman", Times, serif; }
