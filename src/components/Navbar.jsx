@@ -17,7 +17,7 @@ export default function Navbar() {
         </a>
 
         {/* email + status pill (desktop only) */}
-        <div className="hidden md:flex items-center gap-3 text-neutral-400 text-sm">
+        <div className="hidden md:flex items-center gap-1">
           <a href="mailto:shahshan@iu.edu" className="hover:text-white">
             shahshan@iu.edu
           </a>

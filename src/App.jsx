@@ -12,10 +12,12 @@ export default function App() {
     <div className="min-h-screen bg-[#0b0c10] text-neutral-200">
       <Navbar />
 
-      {/* HERO */}
-      <section id="home" className="min-h-[100svh] flex items-center justify-center">
-        <Hero />
-      </section>
+      <section
+  id="home"
+  className="min-h-[100svh] flex items-center justify-center px-4 sm:px-6 py-10 sm:py-12"
+>
+  <Hero />
+</section>
 
       {/* ABOUT */}
       <section id="about" className="min-h-[100svh] flex items-center justify-center bg-[#0e0f13]">
